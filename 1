@@ -1,0 +1,26 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract AIModelRegistry {
+    struct Model {
+        string name;
+        string description;
+        address owner;
+    }
+
+    mapping(bytes32 => Model) public models;
+
+    event ModelRegistered(bytes32 indexed modelId, string name, address indexed owner);
+
+    function registerModel(bytes32 modelId, string memory name, string memory description) public {
+        require(models[modelId].owner == address(0), "Model already registered");
+
+        models[modelId] = Model({
+            name: name,
+            description: description,
+            owner: msg.sender
+        });
+
+        emit ModelRegistered(modelId, name, msg.sender);
+    }
+}
