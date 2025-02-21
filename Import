@@ -1,0 +1,5 @@
+import numpy as np
+
+class Model1:
+    def predict(self, data):
+        return np.mean(data)
