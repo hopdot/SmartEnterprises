@@ -1,0 +1,17 @@
+ai-web3-project/
+├── contracts/
+│   ├── AIModelRegistry.sol
+│   └── Authentication.sol
+├── models/
+│   ├── model1.py
+│   ├── model2.py
+│   └── model3.py
+├── web3/
+│   ├── deploy_contracts.js
+│   ├── interact_with_contracts.js
+│   └── web3_config.js
+├── app/
+│   ├── main.py
+│   └── ai_manager.py
+├── requirements.txt
+└── README.md
