@@ -30,9 +30,9 @@ We adopt a 360-degree approach to community development, focusing on education, 
 **Meet Our Team**
 
 - **Howard Mosely Jr.** - Founder
-- **Alex Johnson** - Executive Director
-- **Maria Martinez** - Program Director
-- **David Lee** - Community Outreach Coordinator
+- **Yvonne Bradford** - Executive Director
+- **Kristy Short** - Program Director
+- **Diamond Mosely** - Community Outreach Coordinator
 
 [View All Team Members]
 
